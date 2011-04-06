@@ -9,9 +9,7 @@ namespace SystemTests
     {
         private readonly string _username;
         private readonly string _password;
-        AndCondition _conditions = new AndCondition(new PropertyCondition(AutomationElement.IsEnabledProperty, true),
-                                                    new PropertyCondition(AutomationElement.ControlTypeProperty, ControlType.Window));
-
+        
         readonly AndCondition _listCondition = new AndCondition(new PropertyCondition(AutomationElement.IsEnabledProperty, true),
                                                                 new PropertyCondition(AutomationElement.ControlTypeProperty, ControlType.ListItem));
 
