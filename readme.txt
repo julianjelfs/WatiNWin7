@@ -1,1 +1,1 @@
-let's see if I can make this work
+This is a dialog handler for WatiN that will work like the LogonDialogHandler but on Windows 7
