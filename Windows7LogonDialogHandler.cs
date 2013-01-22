@@ -5,6 +5,7 @@ using WatiN.Core.Native.Windows;
 
 namespace SystemTests
 {
+	//class for handling windows 7 logon in Watin
     public class Windows7LogonDialogHandler : BaseDialogHandler
     {
         private readonly string _username;
